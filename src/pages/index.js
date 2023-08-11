@@ -1,118 +1,68 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between p-24 `}
     >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/pages/index.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <h1 className='text-3xl font-bold underline bg-gradient-to-r from-cyan-500 to-blue-500'>
+        {" "}
+        Unveiling the Wonders of Deep Learning: A Journey into the Future of AI
+      </h1>
+      <p className='m-[30px] font-thin '>
+        In the realm of artificial intelligence, few advancements have captured
+        the imagination quite like deep learning. This revolutionary technology
+        has propelled AI to new heights, enabling machines to mimic the human
+        brain's intricate processes and unlock the potential for unprecedented
+        achievements. In this blog post, we'll delve into the fascinating world
+        of deep learning, exploring its definition, applications, and the future
+        it promises. Defining Deep Learning: Deep learning is a subset of
+        machine learning, a branch of AI that focuses on training algorithms to
+        learn patterns from data. What sets deep learning apart is its intricate
+        architecture inspired by the human neural network. It involves the use
+        of artificial neural networks with multiple layers (hence the "deep" in
+        deep learning) that process and transform data, gradually extracting
+        higher-level features and representations. Applications That Redefine
+        Possibilities: The applications of deep learning are as diverse as they
+        are revolutionary. Here are just a few examples that showcase its
+        transformative impact: Image and Speech Recognition: Deep learning
+        powers facial recognition systems, allowing computers to identify faces
+        in images or videos. It also drives speech recognition technology,
+        enabling devices like smartphones and virtual assistants to understand
+        and respond to human speech. Natural Language Processing (NLP): Deep
+        learning has revolutionized language understanding and generation.
+        Chatbots, language translation, sentiment analysis, and text generation
+        are powered by advanced NLP models, making human-computer interaction
+        more seamless and intuitive. Autonomous Vehicles: Deep learning
+        algorithms play a pivotal role in enabling self-driving cars to perceive
+        and interpret their environment. They process data from sensors to make
+        real-time decisions, enhancing safety and efficiency on the roads.
+        Healthcare Diagnostics: Deep learning models excel at analyzing medical
+        images such as X-rays, MRIs, and CT scans. They assist medical
+        professionals in diagnosing diseases and conditions with remarkable
+        accuracy. Gaming and Entertainment: Deep learning is behind the
+        realistic graphics and intelligent behaviors of characters in video
+        games. It also contributes to content recommendation systems on
+        streaming platforms, tailoring user experiences based on preferences.
+        The Future Landscape: The trajectory of deep learning suggests a future
+        filled with even more astounding breakthroughs: Explainability: Efforts
+        are underway to make deep learning models more transparent and
+        interpretable. Understanding how these models arrive at their decisions
+        is crucial, especially in sensitive domains like healthcare and finance.
+        Few-Shot and Zero-Shot Learning: Advancements in few-shot and zero-shot
+        learning will allow models to generalize from limited data, making AI
+        more adaptable and efficient. Cross-Domain Applications: Deep learning's
+        ability to transfer knowledge between domains will lead to innovations
+        across industries. For instance, a model trained on medical data might
+        be fine-tuned for agricultural or environmental analysis. Continual
+        Learning: Future deep learning systems will possess the capacity to
+        learn continuously from new data, enabling them to adapt and improve
+        over time without forgetting previous knowledge. Conclusion: Deep
+        learning has undeniably reshaped the AI landscape, propelling us toward
+        a future where machines can learn, understand, and perform tasks in ways
+        previously thought unimaginable. As researchers and innovators continue
+        to push the boundaries of this technology, we can anticipate even more
+        remarkable applications that will redefine how we interact with machines
+        and unlock the full potential of artificial intelligence.
+      </p>
     </main>
-  )
+  );
 }
