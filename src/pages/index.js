@@ -63,6 +63,8 @@ export default function Home() {
         remarkable applications that will redefine how we interact with machines
         and unlock the full potential of artificial intelligence.
       </p>
+      <p className='text-sm lg:text-lg'>You think this is a joke?</p>
+      <p className='text-5xl font-bold'>Title</p>
     </main>
   );
 }
