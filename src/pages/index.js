@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import TypewriterComponent from "typewriter-effect";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -148,7 +149,7 @@ export default function Home() {
               </a>
             </div>
             <div class='lg:mt-0 lg:col-span-5 lg:flex'>
-              <img
+              <Image
                 src='https://img.freepik.com/free-vector/software-tester-concept-illustration_114360-12815.jpg?w=740&t=st=1692577828~exp=1692578428~hmac=098a785e288af3e048b3009cd274dcfa93f349f4313499f1029e287a506f393e'
                 alt='mockup'
               />
@@ -170,9 +171,9 @@ export default function Home() {
                   data-te-ripple-init
                   data-te-ripple-color='light'
                 >
-                  <img
+                  <Image
                     src='https://images.unsplash.com/photo-1575903013621-1387ce8caa74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'
-                    class='w-full'
+                    alt=''
                   />
                   <a href='#!'>
                     <div class='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,0%,0.4)] bg-fixed'>
@@ -373,7 +374,7 @@ export default function Home() {
                 </div>
 
                 <div class='mb-12 lg:mb-0'>
-                  <img
+                  <Image
                     src='https://as1.ftcdn.net/v2/jpg/04/71/65/10/1000_F_471651027_gyWsOTvimDCNqnCUdqWVvfaqEiYroeSt.jpg'
                     alt=''
                   />
