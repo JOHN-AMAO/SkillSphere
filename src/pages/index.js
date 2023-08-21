@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import TypewriterComponent from "typewriter-effect";
 import Image from "next/image";
 
@@ -125,7 +124,7 @@ export default function Home() {
               </p>
               <a
                 href='#'
-                class='inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900'
+                className='inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900'
               >
                 Get started
                 <svg
@@ -143,7 +142,7 @@ export default function Home() {
               </a>
               <a
                 href='#'
-                class='inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white bg-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800'
+                className='inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white bg-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800'
               >
                 Speak to Sales
               </a>
@@ -159,22 +158,19 @@ export default function Home() {
       </div>
       <section class='bg-white dark:bg-gray-900 w-full'>
         <div class='container my-24 mx-auto md:px-6'>
-          <section class='mb-32'>
-            <h2 class='mb-12 text-center text-3xl font-bold'>
+          <section className='mb-32'>
+            <h2 className='mb-12 text-center text-3xl font-bold'>
               Why should you choose SkillSphere?
             </h2>
 
             <div class='flex flex-wrap items-center'>
-              <div class='mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12'>
+              <div className='mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12'>
                 <div
                   class='relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20'
                   data-te-ripple-init
                   data-te-ripple-color='light'
                 >
-                  <Image
-                    src='https://images.unsplash.com/photo-1575903013621-1387ce8caa74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'
-                    alt=''
-                  />
+                  <Image src='https://images.unsplash.com/photo-1575903013621-1387ce8caa74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80' />
                   <a href='#!'>
                     <div class='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,0%,0.4)] bg-fixed'>
                       <div class='flex h-full items-center justify-center'>
