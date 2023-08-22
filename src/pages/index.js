@@ -1,3 +1,4 @@
+"use client";
 import TypewriterComponent from "typewriter-effect";
 import Image from "next/image";
 
@@ -151,6 +152,8 @@ export default function Home() {
               <Image
                 src='https://img.freepik.com/free-vector/software-tester-concept-illustration_114360-12815.jpg?w=740&t=st=1692577828~exp=1692578428~hmac=098a785e288af3e048b3009cd274dcfa93f349f4313499f1029e287a506f393e'
                 alt='mockup'
+                width={50}
+                height={50}
               />
             </div>
           </div>
@@ -170,7 +173,12 @@ export default function Home() {
                   data-te-ripple-init
                   data-te-ripple-color='light'
                 >
-                  <Image src='https://images.unsplash.com/photo-1575903013621-1387ce8caa74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80' />
+                  <Image
+                    src='https://images.unsplash.com/photo-1575903013621-1387ce8caa74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'
+                    width={50}
+                    height={50}
+                    alt=''
+                  />
                   <a href='#!'>
                     <div class='absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,0%,0.4)] bg-fixed'>
                       <div class='flex h-full items-center justify-center'>
