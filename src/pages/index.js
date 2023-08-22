@@ -150,7 +150,7 @@ export default function Home() {
             </div>
             <div class='lg:mt-0 lg:col-span-5 lg:flex'>
               <Image
-                src='/illustration'
+                src='/illustration.jpg'
                 alt='mockup'
                 width={500}
                 height={500}
