@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --light-blue: #add8e6; /* Define the new light blue color */
+  --light-blue: #0f172a; /* Define the new light blue color */
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 200, 200, 200;
