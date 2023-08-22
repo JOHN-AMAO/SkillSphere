@@ -150,10 +150,10 @@ export default function Home() {
             </div>
             <div class='lg:mt-0 lg:col-span-5 lg:flex'>
               <Image
-                src='https://img.freepik.com/free-vector/software-tester-concept-illustration_114360-12815.jpg?w=740&t=st=1692577828~exp=1692578428~hmac=098a785e288af3e048b3009cd274dcfa93f349f4313499f1029e287a506f393e'
+                src='/illustration'
                 alt='mockup'
-                width={50}
-                height={50}
+                width={500}
+                height={500}
               />
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Home() {
       <section class='bg-white dark:bg-gray-900 w-full'>
         <div class='container my-24 mx-auto md:px-6'>
           <section className='mb-32'>
-            <h2 className='mb-12 text-center text-3xl font-bold'>
+            <h2 className='mb-12 text-center text-3xl font-bold text-white bg-blue-900 p-6'>
               Why should you choose SkillSphere?
             </h2>
 
@@ -174,9 +174,9 @@ export default function Home() {
                   data-te-ripple-color='light'
                 >
                   <Image
-                    src='https://images.unsplash.com/photo-1575903013621-1387ce8caa74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'
-                    width={50}
-                    height={50}
+                    src='/woman.jpg'
+                    width={500}
+                    height={500}
                     alt=''
                   />
                   <a href='#!'>
@@ -225,7 +225,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div class='ml-4 grow'>
-                    <p class='mb-1 font-bold'>24/7 Support for Your Success</p>
+                    <p class='mb-1 font-bold text-white'>
+                      24/7 Support for Your Success
+                    </p>
                     <p class='text-neutral-500 dark:text-neutral-300'>
                       We understand that learning does not adhere to a strict
                       schedule. That is why our dedicated support team is
@@ -256,7 +258,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div class='ml-4 grow'>
-                    <p class='mb-1 font-bold'>
+                    <p class='mb-1 text-white font-bold'>
                       A Foundation of Safety and Reliability
                     </p>
                     <p class='text-neutral-500 dark:text-neutral-300'>
@@ -289,7 +291,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div class='ml-4 grow'>
-                    <p class='mb-1 font-bold'>Your Learning, Your Pace</p>
+                    <p class='mb-1 text-white font-bold'>
+                      Your Learning, Your Pace
+                    </p>
                     <p class='text-neutral-500 dark:text-neutral-300'>
                       Whether you are a fast learner or prefer to take your
                       time, our platform adapts to your pace. We understand that
@@ -325,7 +329,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div class='ml-4 grow'>
-                    <p class='mb-1 font-bold'>
+                    <p class='mb-1 font-bold text-white'>
                       Unparalleled Speed for Seamless Learning
                     </p>
                     <p class='text-neutral-500 dark:text-neutral-300'>
@@ -341,19 +345,19 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <section class='bg-white dark:bg-gray-900 w-full'>
-        <div class='container my-12 mx-auto md:px-6'>
-          <section class='mb-32 text-center lg:text-left'>
-            <div class='px-6 py-12 md:px-12'>
-              <div class='grid items-center lg:grid-cols-2 lg:gap-x-12'>
-                <div class='mb-12 lg:mb-0'>
-                  <h2 class='my-12 text-5xl font-bold leading-tight tracking-tight'>
+      <section className='bg-white dark:bg-gray-900 w-full'>
+        <div className='container my-12 mx-auto md:px-6'>
+          <section className='mb-32 text-center lg:text-left'>
+            <div className='px-6 py-12 md:px-12'>
+              <div className='grid items-center lg:grid-cols-2 lg:gap-x-12'>
+                <div className='mb-12 lg:mb-0'>
+                  <h2 className='my-12 text-5xl font-bold leading-tight tracking-tight text-white'>
                     Are you ready <br />
-                    <span class='text-success dark:text-success-400'>
+                    <span className='text-success dark:text-success-400 text-white'>
                       to change your story?
                     </span>
                   </h2>
-                  <p className='mb-10'>
+                  <p className='mb-10 text-white'>
                     Ready to embark on your learning journey? Join us today and
                     experience education like never before. Elevate your skills,
                     expand your horizons, and engage in a world of knowledge
@@ -367,7 +371,7 @@ export default function Home() {
                     Get started
                   </a>
                   <a
-                    class='inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-success transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-success-600 focus:text-success-600 focus:outline-none focus:ring-0 active:text-success-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40'
+                    class='text-white bg-slate-600 inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-success transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-success-600 focus:text-success-600 focus:outline-none focus:ring-0 active:text-success-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40'
                     data-te-ripple-init
                     data-te-ripple-color='light'
                     href='#!'
@@ -379,8 +383,10 @@ export default function Home() {
 
                 <div class='mb-12 lg:mb-0'>
                   <Image
-                    src='https://as1.ftcdn.net/v2/jpg/04/71/65/10/1000_F_471651027_gyWsOTvimDCNqnCUdqWVvfaqEiYroeSt.jpg'
+                    src='/woman2.jpg'
                     alt=''
+                    width={500}
+                    height={500}
                   />
                 </div>
               </div>
