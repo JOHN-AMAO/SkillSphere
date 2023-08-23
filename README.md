@@ -1,38 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SkillShare: Empowering Educators, Students and Professionals
+Welcome to SillSphere, a revolutionary platform designed to connect teachers, professionals, and students from all around the world in an immersive and interactive learning experience. With SkillShere, the boundaries of traditional education are transcended, enabling seamless live video classes, screen sharing, real-time chat, and a host of advanced features. This README file provides an overview of the platform's features, installation instructions, and usage guidelines.
 
-## Getting Started
+Table of Contents
+Introduction
+Features
+Getting Started
+Installation
+Usage
+Pro Plan
+Feedback and Support
+Introduction
+SkillSphere is a cutting-edge platform that empowers educators and professionals to create, conduct, and share live classes with a global audience. Whether you're an expert in a particular field, a seasoned teacher, or a passionate professional, SkillSphere offers you the tools to engage with thousands of students in real-time.
 
-First, run the development server:
+Features
+Live Video Classes: Conduct interactive live video classes, providing a personal touch to online education.
+Screen Sharing: Share your screen, presentations, and demonstrations to enhance the learning experience.
+Real-time Chat: Engage with students through real-time chat during live classes, fostering discussions and questions.
+Interactive Q&A: Enable students to ask questions during live sessions, creating an engaging and dynamic learning environment.
+Class Archives: Record and store past classes for on-demand viewing, ensuring no student misses out.
+Pro Plan Upgrade: Unlock the potential of unlimited classes and advanced features with our Pro Plan subscription.
+Getting Started
+Installation
+SkillSphere is a web-based platform, requiring no installation. Simply visit our website www.Skill-sphere.vercel.app from your preferred web browser to get started.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Usage
+Sign Up / Log In: Create an account or log in to your existing account on the SkillSphere platform.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Explore Classes: Browse through the list of upcoming live classes on the homepage. Filter classes based on your interests or preferred subjects.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Join a Live Class:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Click on a class to view its details and schedule.
+Click the "Join Class" button when the class is live.
+Engage with the teacher and fellow students through video, chat, and interactive Q&A.
+Screen Sharing:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+During the class, the teacher may choose to share their screen for presentations or demonstrations.
+Click on the "Screen Share" button to follow along with the content being presented.
+Real-time Chat:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Interact with teachers and students using the real-time chat feature.
+Ask questions, provide feedback, and engage in discussions related to the class content.
+Pro Plan
+Upgrade your SkillSphere experience by subscribing to our Pro Plan. With the Pro Plan, you'll enjoy the following benefits:
 
-## Learn More
+Unlimited live classes
+Access to exclusive Pro-only classes
+Enhanced analytics and insights
+Priority customer support
+To upgrade to the Pro Plan, navigate to your profile settings and select the Pro Plan subscription.
 
-To learn more about Next.js, take a look at the following resources:
+Feedback and Support
+We value your feedback and are committed to providing a seamless experience. If you encounter any issues, have suggestions for improvements, or require assistance, please reach out to our support team at amaojohn767@gmail.com
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for choosing SkillSphere to revolutionize your teaching and learning journey! Your expertise and knowledge can now inspire and educate a global audience like never before.
