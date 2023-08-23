@@ -9,13 +9,13 @@
   --background-end-rgb: 200, 200, 200;
 }
 
-/* body {
+body {
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  flex-direction: column;
+
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -23,7 +23,7 @@
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-} */
+}
 
 h1 {
   color: var(--light-blue); /* Use the new light blue color for the heading */
