@@ -23,7 +23,7 @@ Class Archives: Record and store past classes for on-demand viewing, ensuring no
 Pro Plan Upgrade: Unlock the potential of unlimited classes and advanced features with our Pro Plan subscription.
 Getting Started
 Installation
-SkillSphere is a web-based platform, requiring no installation. Simply visit our website <a href="Skill-sphere.vercel.app">Skill-sphere.vercel.app from your preferred web browser to get started.</a>
+SkillSphere is a web-based platform, requiring no installation. Simply visit our website <a href="Skill-sphere.vercel.app">Skill-sphere.vercel.app<a/> from your preferred web browser to get started.
 
 <h3>Usage</h3>
 Sign Up / Log In: Create an account or log in to your existing account on the SkillSphere platform.
