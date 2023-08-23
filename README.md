@@ -1,18 +1,20 @@
 <h1>SkillShare: Empowering Educators, Students and Professionals</h1>
 Welcome to SillSphere, a revolutionary platform designed to connect teachers, professionals, and students from all around the world in an immersive and interactive learning experience. With SkillShere, the boundaries of traditional education are transcended, enabling seamless live video classes, screen sharing, real-time chat, and a host of advanced features. This README file provides an overview of the platform's features, installation instructions, and usage guidelines.
 
-Table of Contents
-Introduction
-Features
-Getting Started
-Installation
-Usage
-Pro Plan
-Feedback and Support
-Introduction
+<h1>Table of Contents</h1>
+<ul>
+<l1> Introduction</l1>
+<l1>Features</l1>
+<l1>Getting Started</l1>
+<l1>Installation</l1>
+<l1>Usage</l1>
+<l1>Pro Plan</l1>
+<l1>Feedback and Support</l1>
+</ul>
+<h3>Introduction</h3>
 SkillSphere is a cutting-edge platform that empowers educators and professionals to create, conduct, and share live classes with a global audience. Whether you're an expert in a particular field, a seasoned teacher, or a passionate professional, SkillSphere offers you the tools to engage with thousands of students in real-time.
 
-Features
+<h3>Features</h3>
 Live Video Classes: Conduct interactive live video classes, providing a personal touch to online education.
 Screen Sharing: Share your screen, presentations, and demonstrations to enhance the learning experience.
 Real-time Chat: Engage with students through real-time chat during live classes, fostering discussions and questions.
@@ -23,12 +25,12 @@ Getting Started
 Installation
 SkillSphere is a web-based platform, requiring no installation. Simply visit our website <a href="Skill-sphere.vercel.app">Skill-sphere.vercel.app from your preferred web browser to get started.</a>
 
-Usage
+<h3>Usage</h3>
 Sign Up / Log In: Create an account or log in to your existing account on the SkillSphere platform.
 
 Explore Classes: Browse through the list of upcoming live classes on the homepage. Filter classes based on your interests or preferred subjects.
 
-Join a Live Class:
+<h3>Join a Live Class:</h3>
 
 Click on a class to view its details and schedule.
 Click the "Join Class" button when the class is live.
@@ -44,7 +46,7 @@ Ask questions, provide feedback, and engage in discussions related to the class 
 Pro Plan
 Upgrade your SkillSphere experience by subscribing to our Pro Plan. With the Pro Plan, you'll enjoy the following benefits:
 
-Unlimited live classes
+<h3>Unlimited live classes</h3>
 Access to exclusive Pro-only classes
 Enhanced analytics and insights
 Priority customer support
