@@ -9,7 +9,7 @@
   --background-end-rgb: 200, 200, 200;
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 h1 {
   color: var(--light-blue); /* Use the new light blue color for the heading */
