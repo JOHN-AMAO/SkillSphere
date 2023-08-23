@@ -37,6 +37,10 @@ const Index = () => {
 
   return (
     <div className='w-full  bg-slate-900'>
+      <h1 className='text-white text-center font-bold'>
+        You will be Upgraded to a{" "}
+        <span className='text-green-400'> Pro Plan </span>
+      </h1>
       <div className='flex items-center justify-center bg-slate-900'>
         <div className='bg-black p-4 rounded shadow'>
           <div className='bg-gray-800 p-8 rounded-lg shadow-lg w-96'>

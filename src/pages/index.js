@@ -132,8 +132,8 @@ export default function Home() {
                 individuals across the continent with the knowledge and skills
                 required to excel in the modern world.
               </p>
-              <a
-                href='#'
+              <Link
+                href='/sign-up'
                 className='inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900'
               >
                 Get started
@@ -149,7 +149,7 @@ export default function Home() {
                     clip-rule='evenodd'
                   ></path>
                 </svg>
-              </a>
+              </Link>
               <a
                 href='#'
                 className='inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white bg-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800'
@@ -372,13 +372,13 @@ export default function Home() {
                     expand your horizons, and engage in a world of knowledge
                     with our innovative EdTech platform. Your future starts now.
                   </p>
-                  <a
+                  <Link
                     class='mb-2 inline-block rounded bg-success px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#14a44d] transition duration-150 ease-in-out hover:bg-success-600 hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] focus:bg-success-600 focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] focus:outline-none focus:ring-0 active:bg-success-700 active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(20,164,77,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] md:mr-2 md:mb-0'
-                    href='#!'
+                    href='/sign-up'
                     role='button'
                   >
                     Get started
-                  </a>
+                  </Link>
                   <a
                     class='text-white bg-slate-600 inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-success transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-success-600 focus:text-success-600 focus:outline-none focus:ring-0 active:text-success-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40'
                     data-te-ripple-init
