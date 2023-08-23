@@ -1,4 +1,4 @@
-SkillShare: Empowering Educators, Students and Professionals
+<h1>SkillShare: Empowering Educators, Students and Professionals</h1>
 Welcome to SillSphere, a revolutionary platform designed to connect teachers, professionals, and students from all around the world in an immersive and interactive learning experience. With SkillShere, the boundaries of traditional education are transcended, enabling seamless live video classes, screen sharing, real-time chat, and a host of advanced features. This README file provides an overview of the platform's features, installation instructions, and usage guidelines.
 
 Table of Contents
@@ -21,7 +21,7 @@ Class Archives: Record and store past classes for on-demand viewing, ensuring no
 Pro Plan Upgrade: Unlock the potential of unlimited classes and advanced features with our Pro Plan subscription.
 Getting Started
 Installation
-SkillSphere is a web-based platform, requiring no installation. Simply visit our website Skill-sphere.vercel.app from your preferred web browser to get started.
+SkillSphere is a web-based platform, requiring no installation. Simply visit our website <a href="Skill-sphere.vercel.app">Skill-sphere.vercel.app from your preferred web browser to get started.</a>
 
 Usage
 Sign Up / Log In: Create an account or log in to your existing account on the SkillSphere platform.
