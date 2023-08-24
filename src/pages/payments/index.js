@@ -36,8 +36,8 @@ const Index = () => {
   };
 
   return (
-    <div className='w-full  bg-slate-900'>
-      <h1 className='text-white text-center font-bold'>
+    <div className='w-full  bg-slate-900 h-screen flex justify-center items-center'>
+      <h1 className='text-white text-center font-bold mr-20'>
         You will be Upgraded to a{" "}
         <span className='text-green-400'> Pro Plan </span>
       </h1>
