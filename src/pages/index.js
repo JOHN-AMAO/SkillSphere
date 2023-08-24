@@ -151,10 +151,10 @@ export default function Home() {
                 </svg>
               </Link>
               <a
-                href='#'
+                href='https://skillsphere-ai.vercel.app/'
                 className='inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white bg-black dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800'
               >
-                Speak to Sales
+                Talk with AI
               </a>
             </div>
             <div class='lg:mt-0 lg:col-span-5 lg:flex'>
